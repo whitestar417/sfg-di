@@ -3,11 +3,11 @@ package guru.springframework.sfgdi.services;
 /**
  * Created by dh on 4/22/21
  */
-public class I18nEnglishGreetingService implements GreetingService
+public class I18nSpanishService implements GreetingService
 {
     @Override
     public String sayGreeting()
     {
-        return "Hello World - EN";
+        return "Hola Mundo - ES";
     }
 }
